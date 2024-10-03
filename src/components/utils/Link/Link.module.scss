@@ -1,0 +1,16 @@
+.email {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.link {
+    cursor: pointer;
+    color: inherit;
+    width: 100%;
+    text-decoration: none !important;
+    &:hover {
+        text-decoration: none;
+    }
+}

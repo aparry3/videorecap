@@ -1,0 +1,30 @@
+@import '../../app/variables.scss';
+
+.documentContainer {
+    height: 100%;
+    width: 100%;
+}
+.document {
+    overflow: auto;
+    background: $background-light;
+    color: $primary-color;
+    width: 50%;
+    height: 100%;
+    padding:10% 0;
+}
+.section {
+    width: 100%;
+    text-align: left;
+    padding: 1rem 0;
+}
+.back {
+    cursor: pointer;
+    color: $primary-color;
+}
+
+
+@media (max-width: 600px) {
+    .document {
+        width: 90%;
+    }    
+}

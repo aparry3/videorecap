@@ -1,0 +1,44 @@
+@import '../../../app/variables.scss';
+
+.input {
+    width: 100%;
+}
+
+.addressChip {
+    background: $secondary-color;
+    color: $primary-color;
+    cursor: pointer;
+}
+.error {
+    color: $error;
+}
+.button {
+    width: 50%;
+}
+.uploadArea {
+    height: 100%;
+    width: 100%;
+    border: 2px dashed $secondary-color;
+    cursor: pointer;
+    &:hover {
+        border: 2px solid $secondary-color;
+    }
+}
+
+.fileInput {
+    width: 0;
+    height: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+  }
+
+
+@media (max-width: 600px) {
+    .button {
+        width: 100%;
+    }    
+    
+}

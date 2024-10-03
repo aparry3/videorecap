@@ -1,0 +1,33 @@
+@import "../../../../app/variables.scss";
+
+.formFieldContainer {
+    padding: 0.5rem !important;
+    width: 100%;
+}
+.formField {
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 10vh;
+    width: 100%;
+    background: $background-light;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px -6px black;
+    padding: 1rem !important;
+}
+
+.stepTitle {
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.2rem !important;
+}
+.stepTitleText {
+    flex-grow: 1;
+}
+
+.checkbox {
+    font-size: 1.5rem;
+}
+.check {
+    color: green;
+}

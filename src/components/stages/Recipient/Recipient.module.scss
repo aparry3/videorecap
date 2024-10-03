@@ -1,0 +1,68 @@
+@import '../../../app/variables.scss';
+
+.input {
+    width: 100%;
+    height:100%;
+}
+.buttonText {
+    font-size: 1.1rem !important;
+}
+
+.addressChip {
+    background: $secondary-color !important;
+    color: $primary-color;
+    cursor: pointer;
+}
+.addressBookChip {
+    background: $background-medium-light;
+    color: $primary-color;
+    cursor: pointer;
+    &:active {
+        &:hover {
+            background: $secondary-color;
+        }    
+    }}
+@media (min-width: 600px) {
+    .addressBookChip {
+        &:hover {
+            background: $secondary-color;
+        }
+    }
+}
+.error {
+    color: $error;
+}
+.button {
+    width: 50%;
+}
+.uploadArea {
+    height: 100%;
+    width: 100%;
+    border: 2px dashed $primary-color;
+    border-radius: 1rem;
+    cursor: pointer;
+    &:hover {
+        border: 2px solid $primary-color;
+    }
+}
+
+.fileInput {
+    width: 0;
+    height: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+  }
+
+
+@media (max-width: 600px) {
+    .button {
+        width: 100%;
+    }    
+    .buttonText {
+        font-size: 0.9rem !important;
+    }    
+    
+}

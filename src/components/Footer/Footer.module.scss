@@ -1,0 +1,13 @@
+@import '../../app/variables.scss';
+.footer {
+    height: 5rem;
+    width: 100%;
+    background: $primary-color;
+    flex-shrink: 0;
+    z-index:10;
+}
+.inverse {
+    background: $secondary-color;
+    color: $primary-color;
+
+}

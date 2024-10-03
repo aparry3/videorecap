@@ -1,0 +1,12 @@
+@import '../../../app/variables.scss';
+.day {
+    cursor: pointer;
+}
+.selected {
+    border-radius: 0.2rem;
+    background: $primary-color;
+    color: $background-light;
+}
+.wrongMonth {
+    color: $background-medium;
+}

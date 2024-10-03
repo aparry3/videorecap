@@ -1,0 +1,26 @@
+@import '../../app/variables.scss';
+
+.input {
+    width: 100%;
+}
+.button {
+    width: 50%;
+}
+.addressAutocomplete {
+    background: $background-light;
+    border: 1px solid $primary-color;
+}
+.autocompleteResult {
+    width: 100%;
+    border-top: 1px solid $primary-color;
+    cursor: pointer;
+    &:hover {
+        background: $secondary-color;
+        color: $primary-color;
+    }
+}
+@media (max-width: 600px) {
+    .button {
+        width: 100%;
+    }    
+}

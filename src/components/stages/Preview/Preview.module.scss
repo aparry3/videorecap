@@ -1,0 +1,13 @@
+@import '../../../app/variables.scss';
+.button {
+    width: 50%;
+}
+.recipients {
+    background: $secondary-color;
+    color: $primary-color;
+}
+@media (max-width: 600px) {
+    .button {
+        width: 100%;
+    }    
+}

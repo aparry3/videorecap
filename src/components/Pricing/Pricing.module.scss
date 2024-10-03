@@ -1,0 +1,21 @@
+@import '../..//app/variables.scss';
+
+
+.pricingBlock {
+    background: $secondary-color;
+    border: 3px solid $primary-color;
+    color: black;
+}
+.mobilePricing {
+    display: none !important;
+    width: '100%';
+}
+
+@media (max-width: 600px) {
+    .desktopPricing {
+        display: none !important;
+    }
+    .mobilePricing {
+        display: flex !important;
+    }
+}

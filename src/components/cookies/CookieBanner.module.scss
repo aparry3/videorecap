@@ -1,0 +1,13 @@
+@import '../../app/variables.scss';
+
+
+.banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: $secondary-color;
+    color: $primary-color;
+    box-shadow: 0 0 8px -5px black;
+}

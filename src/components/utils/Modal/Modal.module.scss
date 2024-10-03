@@ -1,0 +1,48 @@
+@import '../../../app/variables.scss';
+
+
+.modalContainer {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}
+.modalBackground {
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: -20;
+}
+.modal {
+    cursor: default;
+    background: $background-light;
+    border-radius: 1rem;;
+    min-height:70%;
+    height: 100%;
+    width: 70%;
+    max-height: 100%;
+    box-shadow: 0 0 8px -6px black;
+    overflow:auto;
+    align-items: flex-start !important;
+}
+.inverted {
+    background: $secondary-color;
+    border: 2px solid $primary-color;
+}
+
+
+@media (max-width: 600px) {
+    .modal {
+        height:100%;
+        width: 100%;
+        padding: 0.5rem !important;
+    }
+    
+    
+}

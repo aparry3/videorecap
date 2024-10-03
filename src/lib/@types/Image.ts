@@ -1,0 +1,1 @@
+export type base64String = string

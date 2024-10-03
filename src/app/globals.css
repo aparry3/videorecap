@@ -1,0 +1,36 @@
+:root {
+  /* --primary-color: #2D7B61;
+  --secondary-color: #FCF0D8;
+  --tertiary-color: #A6C48A;
+  --primary-accent: #F6E7CB;
+  --secondary-accent: #DD9787; */
+  --primary-color: #023047;
+  --secondary-color: #FCF0D8;
+  --tertiary-color: #FFB703;
+
+  --background-light: #FEFEFE;
+  --background-medium-light: #E9ECEF;
+  --background-medium: #DEE2E6;
+
+  --primary-accent: #8ECAE6;
+  --secondary-accent: #DD9787;
+  --error: #ff5151;
+
+}
+
+body {
+  overscroll-behavior: none;
+  padding: 0;
+  margin: 0;
+  height:100%;
+  width: 100vw;
+  box-sizing: border-box;
+  position: fixed;
+  overflow: hidden;
+  color: var(--secondary-color);
+  background: var(--background-medium-light);
+}
+
+.StripeElement {
+  width: 100%;
+}

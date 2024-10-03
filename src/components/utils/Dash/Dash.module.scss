@@ -1,0 +1,10 @@
+@import '../../../app/variables.scss';
+
+.dash {
+    height: 1px;
+    background: $primary-color;
+    flex-grow: 1;
+}
+.dashContainer {
+    flex-grow: 1;
+}

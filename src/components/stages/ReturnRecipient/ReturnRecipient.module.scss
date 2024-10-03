@@ -1,0 +1,9 @@
+@import '../../../app/variables.scss';
+.input {
+    width: 100%;
+}
+.addressChip {
+    background: $secondary-color;
+    color: $primary-color;
+    cursor: pointer;
+}

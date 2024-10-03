@@ -1,0 +1,43 @@
+@import '../../app/variables.scss';
+
+.header {
+    height: $header-size;
+    flex-shrink: 0;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: $primary-color;
+    color: $secondary-color;
+    box-shadow: 0px 1px 8px -5px black;
+    z-index: 10;
+}
+.logo {
+    height: 3rem;
+}
+.wordmark {
+    font-family: Montagu Slab !important;
+    color: $secondary-color;
+}
+.menuContainer {
+    display: none;
+    cursor: pointer;
+}
+.button {
+    background: $secondary-color;
+    color: $primary-color !important;
+}
+.interactive {
+    color: $secondary-color;
+    font-family: Montserrat !important;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+@media (max-width: 600px) {
+    .buildButton {
+        display: none;
+    }
+    .menuContainer {
+        display: flex;
+    }
+}

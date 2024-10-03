@@ -1,0 +1,33 @@
+@import '../../../app/variables.scss';
+
+.uploadArea {
+    height: 100%;
+    width: 100%;
+    border: 2px dashed $primary-color;
+    color: $primary-color;
+    border-radius: 1rem;
+    cursor: pointer;
+    &:hover {
+        border: 2px solid $primary-color;
+    }
+}
+.uploadIcon {
+    font-size: 5rem;
+}
+.browse {
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.input {
+    width: 0;
+    height: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    overflow: hidden;
+  }

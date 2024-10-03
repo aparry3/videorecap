@@ -1,0 +1,22 @@
+@import '../../../../app/variables.scss';
+
+.modalText {
+    width: 100%;
+}
+.input {
+    width: 100%;
+}
+.addressChip {
+    background: $secondary-color;
+    color: $primary-color;
+    cursor: pointer;
+}
+
+.button {
+    width: 50%;
+}
+@media (max-width: 600px) {
+    .button {
+        width: 100%;
+    }    
+}

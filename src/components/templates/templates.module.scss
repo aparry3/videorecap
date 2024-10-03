@@ -1,0 +1,12 @@
+@import '../../app/variables.scss';
+
+.templateContainer {
+    height: 100%;
+    width: 100%;
+    background: grey;
+}
+
+.template {
+    box-shadow: 0 0 10px -4px black;
+    background: $secondary-color;
+}
